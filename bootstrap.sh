@@ -20,10 +20,17 @@ sudo apt-get install -y php5 php5-mysql php5-dev php-pear
 # Install memcached
 sudo apt-get install -y memcached php5-memcache php5-memcached
 
+# Install git
+sudo apt-get install -y git
+
 # Install phpunit
 wget https://phar.phpunit.de/phpunit.phar
 chmod +x phpunit.phar
 sudo mv phpunit.phar /usr/local/bin/phpunit
+
+# Install composer
+curl -sS https://getcomposer.org/installer | php
+mv composer.phar /usr/local/bin/composer
 
 # Restart apache2
 sudo /etc/init.d/apache2 restart
