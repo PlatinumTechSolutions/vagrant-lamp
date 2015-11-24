@@ -1,6 +1,7 @@
 
 # Install apache2
-sudo apt-get install -y apache2
+sudo apt-get install -y apache2 mod_rewrite
+sudo a2enmod rewrite
 
 echo mysql-server mysql-server/root_password password  password  | sudo debconf-set-selections
 echo mysql-server mysql-server/root_password_again password  password  | sudo debconf-set-selections
