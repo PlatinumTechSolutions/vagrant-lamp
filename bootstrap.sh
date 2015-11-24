@@ -16,7 +16,7 @@ sudo add-apt-repository ppa:ondrej/php5-5.6
 sudo apt-get update
 sudo apt-get install python-software-properties
 sudo apt-get update
-sudo apt-get install -y php5 php5-mysql php5-dev php-pear
+sudo apt-get install -y php5 php5-mysql php5-dev php-pear php5-curl
 
 # Install memcached
 sudo apt-get install -y memcached php5-memcache php5-memcached
