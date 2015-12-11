@@ -7,7 +7,7 @@ echo mysql-server mysql-server/root_password password  password  | sudo debconf-
 echo mysql-server mysql-server/root_password_again password  password  | sudo debconf-set-selections
 
 # Install mysql
-sudo apt-get install -y mysql-server-5.5
+sudo apt-get install -y mysql-server-5.6
 sudo apt-get install -y mysql-server
 sudo apt-get install -y mysql-client
 
